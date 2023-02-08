@@ -1,0 +1,17 @@
+---
+name: Report
+about: Upload run reports
+title: "[REPORT]"
+labels: report
+assignees: ''
+body:
+- type: file
+  attributes:
+    label: `bb-cuda.zip`
+    description: Attach your report .zip
+    extensions: ["zip"]
+    pattern: "bb-host-report.*\.zip"
+    required: true
+---
+
+
