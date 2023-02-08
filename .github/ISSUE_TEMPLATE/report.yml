@@ -7,7 +7,7 @@ assignees: ''
 body:
 - type: file
   attributes:
-    label: `bb-cuda.zip`
+    label: `report`
     description: Attach your report .zip
     extensions: ["zip"]
     pattern: "bb-.*-report.zip"
