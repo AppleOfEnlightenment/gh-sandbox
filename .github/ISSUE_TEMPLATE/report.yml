@@ -10,7 +10,7 @@ body:
     label: `bb-cuda.zip`
     description: Attach your report .zip
     extensions: ["zip"]
-    pattern: "bb-host-report.*\.zip"
+    pattern: "bb-.*-report.zip"
     required: true
 ---
 
