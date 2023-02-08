@@ -1,16 +1,9 @@
----
 name: Report
-about: Upload run reports
+description: Attach your report .zip
 title: "[REPORT]"
-labels: report
-assignees: ''
-body:
+labels: ["report"]
 - type: file
   attributes:
-    description: Attach your report .zip
     extensions: ["zip"]
     pattern: "bb-.*-report.zip"
     required: true
----
-
-
